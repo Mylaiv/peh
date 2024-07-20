@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+
+body {
+    font-family: "Monserrat", sans-serif;
+}
+
+div {
+    border: 2.5px solid rgb(0, 0, 0);
+    height: 100px;
+    width: 100px;
+    margin : 0px auto;
+    margin-bottom: 50px; 
+}
+.white{background-color: white;}
+.lightgray{background-color: lightgray;}
+.gray{background-color: gray;}
+
+div.white {
+    background-color: lightblue;
+}
+
+div.lightgray {
+    background-color: cyan;
+}
+
+div.gray {
+    background-color: blue;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;/*horizontal*/
+    line-height: 100px;/*vertical*/
+    color: rgb(0, 0, 0);
+}
+
+.circle{
+    border-radius: 50%;
+}
